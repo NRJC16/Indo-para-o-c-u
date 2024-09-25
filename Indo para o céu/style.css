@@ -1,0 +1,33 @@
+body {
+     background-color: pink;
+     color: black;
+     font-family: "Playfair Display", system-ui;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 700px;
+     margin: 0;
+}
+
+button {
+     background-color: blueviolet(255, 140, 0);
+     color: black;
+     font-family: "Playfair Display", system-ui;
+}
+
+.passo {
+     display: none;
+}
+
+.passo.ativo {
+     display: block;
+}
+
+main {
+     max-width: 90%;
+     text-align: center;
+}
+img {
+     max-width: 90%;
+
+}
